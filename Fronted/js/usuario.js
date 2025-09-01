@@ -14,7 +14,7 @@ async function obtenerUsuario() {
 
 
 function agregarEventoForm() {
-    let form = document.querySelector("#Form");
+    let form = document.querySelector("#frmUsuario");
     if (!form) return;
     form.onsubmit = (e) => {
         e.preventDefault();
@@ -39,7 +39,7 @@ async function iniciarSesionUsuario(email, password) {
 
         if (resultado.status && resultado.rol === "usuario") {
             window.localStorage.setItem("sesionUser", JSON.stringify(resultado.data));
-            window.location.href = "Fronted/index.html";
+            window.location.href = "../index.html"; // <-- Cambia aquí la ruta
         } else {
             alert("No tienes permisos de usuario o los datos son incorrectos.");
         }

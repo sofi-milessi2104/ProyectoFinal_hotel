@@ -75,3 +75,39 @@ Stack trace:
 #2 C:\xampp_1\htdocs\ProyectoFINAL\ProyectoFINAL\Backend\routes\api.php(41): loginAddAdmin('10345678', 'Ana Torres', 'ana.torres@empr...', 'Gerencia', 'TorresSoyyo9647')
 #3 {main}
   thrown in C:\xampp_1\htdocs\ProyectoFINAL\ProyectoFINAL\Backend\models\Administrador.php on line 20
+[01-Sep-2025 20:37:41 Europe/Berlin] PHP Warning:  Undefined array key "rol" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\controllers\usuario.php on line 33
+[01-Sep-2025 20:56:59 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 100
+[01-Sep-2025 20:56:59 Europe/Berlin] PHP Warning:  Undefined array key "apellido" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 101
+[01-Sep-2025 20:56:59 Europe/Berlin] PHP Warning:  Undefined array key "celular" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 103
+[01-Sep-2025 20:56:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarUsuario() in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 105
+[01-Sep-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 100
+[01-Sep-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined array key "apellido" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 101
+[01-Sep-2025 20:57:03 Europe/Berlin] PHP Warning:  Undefined array key "celular" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 103
+[01-Sep-2025 20:57:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarUsuario() in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 105
+[01-Sep-2025 20:57:35 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 100
+[01-Sep-2025 20:57:35 Europe/Berlin] PHP Warning:  Undefined array key "apellido" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 101
+[01-Sep-2025 20:57:35 Europe/Berlin] PHP Warning:  Undefined array key "celular" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 103
+[01-Sep-2025 20:57:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarUsuario() in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 105
+[01-Sep-2025 20:58:02 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 100
+[01-Sep-2025 20:58:02 Europe/Berlin] PHP Warning:  Undefined array key "apellido" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 101
+[01-Sep-2025 20:58:02 Europe/Berlin] PHP Warning:  Undefined array key "celular" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 103
+[01-Sep-2025 20:58:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarUsuario() in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 105
+[01-Sep-2025 20:58:33 Europe/Berlin] PHP Warning:  Undefined array key "nombre" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 100
+[01-Sep-2025 20:58:33 Europe/Berlin] PHP Warning:  Undefined array key "apellido" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 101
+[01-Sep-2025 20:58:33 Europe/Berlin] PHP Warning:  Undefined array key "celular" in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 103
+[01-Sep-2025 20:58:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function agregarUsuario() in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php:105
+Stack trace:
+#0 {main}
+  thrown in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\routes\api.php on line 105

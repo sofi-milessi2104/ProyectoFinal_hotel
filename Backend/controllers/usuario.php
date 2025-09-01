@@ -30,7 +30,11 @@ function loginUsuario($email, $password) {
     global $usuarioModel;
     $resultado = $usuarioModel->login($email, $password);
     if ($resultado) {
-        echo json_encode(["status" => true, "message" => "Credenciales correctas"]);
+        echo json_encode([
+            "status" => true,
+            "rol" => "usuario",
+            "data" => $resultado
+        ]);
     } else {
         echo json_encode(["status" => false, "message" => "Credenciales incorrectas"]);
     }
