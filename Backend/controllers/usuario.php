@@ -11,7 +11,11 @@ function obtenerUsuario() {
 function loginAddUser($nombre, $apellido, $email, $celular, $password) {
     global $usuarioModel;
     if ($usuarioModel->loginAdd($nombre, $apellido, $email, $celular, $password)) {
-        echo json_encode(["message" => "Usuario agregado correctamente."]);
+        echo json_encode([
+            "status" => true,
+            "rol" => "usuario",
+            "data" => $resultado
+        ]);
     } else {
         echo json_encode(["message" => "Error al agregar el usuario."]);
     }
