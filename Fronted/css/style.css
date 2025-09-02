@@ -1,4 +1,7 @@
 
+body{
+  background-color: #faf3e0;
+}
 .merienda-uniquifier> {
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
@@ -23,3 +26,5 @@
   font-weight: 600;
   font-style: normal;
 }
+
+

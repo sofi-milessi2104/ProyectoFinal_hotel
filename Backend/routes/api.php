@@ -101,7 +101,7 @@ elseif ($requestMethod == "POST") {
         $apellido = $_POST["apellido"];
         $email = $_POST["email"];
         $celular = $_POST["celular"];
-        echo "Datos recibidos: Nombre: $nombre, Apellido: $apellido, Email: $email, Celular: $celular";
+        //echo "Datos recibidos: Nombre: $nombre, Apellido: $apellido, Email: $email, Celular: $celular";
         agregarUsuario($nombre, $apellido, $email, $celular);
         global $usuarioModel;
     }else{
