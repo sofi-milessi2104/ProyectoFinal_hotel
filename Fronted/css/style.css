@@ -46,3 +46,10 @@ body{
   color: #fff;
 }
 
+.swiper-slide img {
+  width: 100%;         /* Ocupa todo el ancho del slide */
+  height: 450px;       /* Alto fijo, puedes ajustar este valor */
+  object-fit: cover;   /* Recorta la imagen sin deformarla */
+  border-radius: 80px; /* Opcional: bordes redondeados */
+  display: block;
+}
