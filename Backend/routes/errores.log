@@ -4,3 +4,5 @@
 [02-Sep-2025 19:37:43 Europe/Berlin] PHP Warning:  Undefined variable $resultado in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\controllers\usuario.php on line 17
 [02-Sep-2025 19:38:12 Europe/Berlin] PHP Warning:  Undefined variable $resultado in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\controllers\usuario.php on line 17
 [08-Sep-2025 21:28:52 Europe/Berlin] PHP Warning:  Undefined variable $resultado in C:\xampp_1\htdocs\proyectofinal_hotel\ProyectoFinal_hotel\Backend\controllers\usuario.php on line 17
+[14-Sep-2025 20:43:46 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\ProyectoFinal_hotel\Backend\routes\api.php on line 13
+[14-Sep-2025 20:43:59 Europe/Berlin] PHP Warning:  Undefined array key "url" in C:\xampp\htdocs\ProyectoFinal_hotel\Backend\routes\api.php on line 13
